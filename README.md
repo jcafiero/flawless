@@ -7,6 +7,17 @@ Included in this app:
 * Devise is configured
 * Ready for deployment to Heroku
 
+
+## Heroku setup
+
+To get your application running on Heroku: 
+
+* Install the [Heroku toolbelt](https://toolbelt.heroku.com/)
+* Create a new application in the [Heroku dashboard](https://dashboard.heroku.com/new)
+* Add the Heroku remote: `heroku git:remote -a your-heroku-app-name`
+* Push to Heroku: `git push heroku master`
+* Migrate your database: `heroku run rake db:migrate`
+
 ## Postgres setup
 To troubleshoot issues with postgres on `bundle install`:
 
