@@ -1,3 +1,4 @@
+# Yoooooooo
 # Flawless Hacks
 
 This repository is a starter Rails project to help you get up and running quickly!
